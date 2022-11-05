@@ -1,0 +1,324 @@
+@font-face {
+    font-family:hallie;
+    src: url(Hallies.ttf);
+}
+
+@font-face {
+    font-family: king;
+    src: url(NixieOne.ttf);
+}
+
+#lupa{
+    width: 20px;
+}
+
+#logo {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+}
+
+#parques {
+    margin-left: 20px;
+    font-family: hallie;
+    font-size: 80px;
+    color: #000000
+}
+
+#parquet{
+    margin-left: 20px;
+    font-family: hallie;
+    font-size: 80px;
+    color: #000000;
+    }
+
+#barra{
+    border-radius: 6px;
+}
+
+.parques {
+    font-family: hallie;
+    border-radius: 7px;
+    text-align: center;
+    }
+
+    #linha {
+        color: #2f792f
+    }
+
+    .textoparquet {
+        display: flex;
+        margin-left: 40px;
+        padding: 40px;
+        margin-right: 20px;
+        justify-content: space-around;
+        box-shadow: 2px 2px 2px 1px rgba(0.1, 0, 0, 0.2);
+
+    }
+#textoparquet {
+    font-family: king;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00686B;
+    border-radius: 70px;
+    text-align: justify;
+    padding: 50px;
+    width: 500px;
+    box-shadow: 7px 7px 2px 1px rgba(2, 2, 2, 0.3);
+
+}
+
+#pqsd1 {
+    width: 900px;
+    border: dotted #00686B;
+}
+
+#pqsd2 {
+    width: 700px;
+    border: dotted #00686B;
+}
+
+
+.páginas a{
+    color:black;
+    font-weight: bold;
+    padding: 30px;   
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.páginas {
+    text-align: center;
+    font-family: king;
+}
+
+.barra-colorida{
+    text-align: center;
+}
+
+
+#toronto1 {
+    border: dotted #00686B;
+    width: 500px;
+    height: 400px;
+    box-shadow: #000700 10px;
+    }
+#toronto3 {
+    border: dotted #00686B;
+    width: 700px;
+    height: 400px;
+    margin-right: 25px;
+}
+
+
+#textoparquet2 {
+    font-family: king;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00686B;
+    border-radius: 70px;
+    text-align: justify;
+    padding: 50px;
+    width: 250px;
+    height: 200px;
+    box-shadow: 7px 7px 2px 1px rgba(2, 2, 2, 0.3);
+
+}
+
+.textoparquet2 {
+    display: flex;
+    margin-left: 40px;
+    padding: 40px;
+    margin-right: 20px;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px 1px rgba(0.1, 0, 0, 0.2);
+
+}
+
+#textoparquesd{
+    text-align: center;
+    align-items: center;
+    font-family: king;
+    font-weight: bold;
+    font-size: 15px;
+    color:white;
+       
+}
+
+.textopsd {
+    margin-left: 100px;
+    padding: 20px;
+background-color: #00686B;
+height: 10px;
+width: 1100px;
+border-radius: 30px;
+text-align: center;
+align-items: center;
+box-shadow: 5px 5px 2px 1px rgba(2, 2, 2, 0.3);
+}
+
+.toronto {
+    text-align: center;
+}
+
+
+#vídeo {
+    border-radius: 10px;
+    border:dotted black;
+    padding: 15px;
+}
+
+.vídeo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.textopsd2 {
+    margin-left: 250px;
+    padding: 20px;
+background-color: #00686B;
+height: 10px;
+width: 800px;
+border-radius: 30px;
+text-align: center;
+align-items: center;
+box-shadow: 5px 5px 2px 1px rgba(2, 2, 2, 0.3);
+}
+
+#textoparquesd2{
+    text-align: center;
+    align-items: center;
+    font-family: king;
+    font-weight: bold;
+    font-size: 15px;
+    color:white;
+}
+
+
+.rodapé{
+    background-color: #00686bf3;
+    height: 620px;
+    width: 1345px;
+    margin-left: -18px;
+    margin-top: 10px;
+}
+
+#titulorodapé {
+    font-family: hallie;
+    font-size: 50px;
+    margin-left: 35px;
+    color: white;
+}
+
+#textorodapé {
+    font-family: king;
+    font-size: 15px;
+    margin-left: 45px;
+    color: white;
+}
+
+a ol li{
+    margin-left: 45px;
+    color: white;
+    
+}
+
+#titulocontato {
+    font-family: hallie;
+    font-size: 50px;
+    margin-left: 580px;
+    color: white;
+}
+
+#textocontato {
+    margin-left: 600px;
+}
+
+#linksrodapé{
+    color:white;
+}
+
+#voltar {
+    color: white;
+    font-size: 50px;
+    font-weight: light;
+    text-decoration: overline rgba(0, 0, 0, 0.623);
+    font-family: hallie;
+    margin-top:-80px;
+}
+
+a{
+color: black
+}
+
+#waze{
+    text-decoration: underline black;
+    color: white;
+}
+
+.amo{
+    background-color: #2BA673;
+    border-radius: 19px;
+    margin-top: 30px;
+    height: 950px;
+    border: ridge 20px;
+}
+
+#textoamo{
+    font-family: king;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 260px;
+    color:white
+}
+
+#tituloamo{
+    font-family: hallie;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+#item
+{  padding: 10px;
+    width: 1250px;
+}
+
+#item1
+{  padding: 10px;
+    width: 1250px;
+}
+
+#logoinsta {
+    width: 30px;
+}
+#criadora {
+    margin-left: 150px;
+ font-weight: bold;
+ color: white;
+ font-family: king;
+
+ }
+li{
+    color: white;
+    font-family: king;
+}
+
+#logopicpay{
+    width: 120px;
+    margin-top: -80px;
+}
+
+#logogerminare{
+    width: 120px;
+    margin-top: -80px;
+}
+#pqsdinsta{
+    font-family: king;
+    font-weight: bold;
+    color: white;
+}
+
+
+/*cores: 2BA673 00686B 2E8B57 2f792f*/

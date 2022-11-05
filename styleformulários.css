@@ -1,0 +1,238 @@
+@font-face {
+    font-family:hallie;
+    src: url(Hallies.ttf);
+}
+
+@font-face {
+    font-family: king;
+    src: url(NixieOne.ttf);
+}
+
+
+#lupa{
+    width: 20px;
+}
+
+#logo {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 6px;
+}
+
+
+.páginas a{
+    color:black;
+    font-weight: bold;
+    padding: 30px;   
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.páginas {
+    text-align: center;
+    font-family: king;
+}
+
+.barra-colorida{
+    text-align: center;
+}
+
+#tituloforms{
+    font-size: 35px;
+    font-family: hallie;
+    margin-right: 130px;
+}
+#tituloforms2{
+    font-size: 32px;
+    font-family: hallie;
+}
+
+
+.forms{
+margin-left: 87px;
+}
+
+#area{
+  position:relative;
+  top: 8px;
+margin-left: 70px;
+border-radius: 15px;
+}
+
+#area #formulario{
+  position:absolute;
+  display:block;
+  top: 8px;
+}
+
+fieldset{
+  width:450px;
+  height:590px;
+  background-color: #2f792f96;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: king;
+  border-radius: 30px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 21px;
+    font-family: king;
+    
+}
+
+#mensagem{
+    font-weight: bold;
+    font-size: 17px;
+    font-family: king;
+}
+
+.input {
+    font-family: king;
+    font-size: 30px;
+}
+
+#area2 #formulario2{
+    position:absolute;
+    display:block;
+    margin-left: 700px;
+    top: 172px;
+  }
+p {
+    font-family: king;
+    font-size: 20px;
+}
+
+
+
+
+.rodapé{
+    background-color: #00686bf3;
+    height: 620px;
+    width: 1345px;
+    margin-left: -18px;
+    margin-top: 650px;
+}
+
+#titulorodapé {
+    font-family: hallie;
+    font-size: 50px;
+    margin-left: 35px;
+    color: white;
+}
+
+#textorodapé {
+    font-family: king;
+    font-size: 15px;
+    margin-left: 45px;
+    color: white;
+}
+
+a ol li{
+    margin-left: 45px;
+    color: white;
+    
+}
+
+#titulocontato {
+    font-family: hallie;
+    font-size: 50px;
+    margin-left: 580px;
+    color: white;
+}
+
+#textocontato {
+    margin-left: 600px;
+}
+
+#linksrodapé{
+    color:white;
+}
+
+#voltar {
+    color: white;
+    font-size: 50px;
+    font-weight: light;
+    text-decoration: overline rgba(0, 0, 0, 0.623);
+    font-family: hallie;
+    margin-top:-80px;
+}
+
+a{
+color: black
+}
+
+#waze{
+    text-decoration: underline black;
+    color: white;
+}
+
+.amo{
+    background-color: #2BA673;
+    border-radius: 19px;
+    margin-top: 30px;
+    height: 950px;
+    border: ridge 20px;
+}
+
+#textoamo{
+    font-family: king;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 260px;
+    color:white
+}
+
+#tituloamo{
+    font-family: hallie;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+#item
+{  padding: 10px;
+    width: 1250px;
+}
+
+#item1
+{  padding: 10px;
+    width: 1250px;
+}
+
+#logoinsta {
+    width: 30px;
+}
+#criadora {
+    margin-left: 150px;
+ font-weight: bold;
+ color: white;
+ font-family: king;
+
+ }
+li{
+    color: white;
+    font-family: king;
+}
+
+#logopicpay{
+    width: 120px;
+    margin-top: -80px;
+}
+
+#logogerminare{
+    width: 120px;
+    margin-top: -80px;
+}
+#pqsdinsta{
+    font-family: king;
+    font-weight: bold;
+    color: white;
+}
+
+input
+{    border-radius: 7px;
+}
+/*cores: 2BA673 00686B 2E8B57 2f792f*/

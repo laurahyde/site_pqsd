@@ -1,0 +1,266 @@
+@font-face {
+    font-family:hallie;
+    src: url(Hallies.ttf);
+}
+
+@font-face {
+    font-family: king;
+    src: url(NixieOne.ttf);
+}
+
+#lupa{
+    width: 20px;
+}
+
+
+#logo {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+}
+
+#história {
+    margin-left: 20px;
+    font-family: hallie;
+    font-size: 50px;
+}
+
+.história {
+    background-color: #2ba6738f;
+    border-radius: 7px;
+    text-align: center;
+}
+
+
+#vídeotítulo {
+    margin-left: 100px;
+    font-family: hallie;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    margin-right: 6px;
+ }
+ .vídeo {
+    display: flex;
+ }
+#vídeo{
+    padding: 20px;
+    border: dotted black;
+    border-radius: 50px;
+    padding: 20px;
+    width: 900px;
+}
+
+#capa{
+    padding: 20px;
+    border: dotted black;
+    border-radius: 60px;
+    width: 750px;
+}
+
+
+#textohistória {
+    font-family: king;
+    font-weight: bold;
+    display: flex;
+    padding: 20px;
+}
+
+.páginas a{
+    color:black;
+    font-weight: bold;
+    padding: 30px;   
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.páginas {
+    text-align: center;
+    font-family: king;
+}
+
+.barra-colorida{
+    text-align: center;
+}
+
+.inf {
+    background-color:#2e8b56ab;
+    border-radius: 30px;
+}
+
+#inf {
+    padding: 20px;
+    font-family: hallie;
+    font-size: 50px;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+#lista {
+    margin-left: 20px;
+    font-family: king;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#ml {
+    display: flex;
+}
+
+#local {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: hallie;
+    font-size: 50px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.mãe {
+    display: flex;
+    padding: 10px;
+}
+
+#mapa{
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 700px;
+    margin-right: 0px;
+   background: linear-gradient(80deg, #2BA673, #00686B, #348b34);
+}
+
+#mapa2{
+    border-radius: 10px;
+    margin-left: 0px;
+    width: 560px;
+    height: 415px;
+    margin-right: 0px;
+   background: linear-gradient(80deg, #2BA673, #00686B, #348b34);
+}
+
+.rodapé{
+    background-color: #00686bf3;
+    height: 620px;
+    width: 1345px;
+    margin-left: -18px;
+    margin-top: 10px;
+}
+
+#titulorodapé {
+    font-family: hallie;
+    font-size: 50px;
+    margin-left: 35px;
+    color: white;
+}
+
+#textorodapé {
+    font-family: king;
+    font-size: 15px;
+    margin-left: 45px;
+    color: white;
+}
+
+a ol li{
+    margin-left: 45px;
+    color: white;
+    
+}
+
+#titulocontato {
+    font-family: hallie;
+    font-size: 50px;
+    margin-left: 580px;
+    color: white;
+}
+
+#textocontato {
+    margin-left: 600px;
+}
+
+#linksrodapé{
+    color:white;
+}
+
+#voltar {
+    color: white;
+    font-size: 50px;
+    font-weight: light;
+    text-decoration: overline rgba(0, 0, 0, 0.623);
+    font-family: hallie;
+    margin-top:-80px;
+}
+
+a{
+color: black
+}
+
+#waze{
+    text-decoration: underline black;
+    color: white;
+}
+
+.amo{
+    background-color: #2BA673;
+    border-radius: 19px;
+    margin-top: 30px;
+    height: 950px;
+    border: ridge 20px;
+}
+
+#textoamo{
+    font-family: king;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 260px;
+    color:white
+}
+
+#tituloamo{
+    font-family: hallie;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+#item
+{  padding: 10px;
+    width: 1250px;
+}
+
+#item1
+{  padding: 10px;
+    width: 1250px;
+}
+
+#logoinsta {
+    width: 30px;
+}
+#criadora {
+    margin-left: 150px;
+ font-weight: bold;
+ color: white;
+ font-family: king;
+
+ }
+li{
+    color: white;
+    font-family: king;
+}
+
+#logopicpay{
+    width: 120px;
+    margin-top: -80px;
+}
+
+#logogerminare{
+    width: 120px;
+    margin-top: -80px;
+}
+#pqsdinsta{
+    font-family: king;
+    font-weight: bold;
+    color: white;
+}
+
+
+/*cores: 2BA673 00686B 2E8B57 2f792f*/

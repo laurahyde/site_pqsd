@@ -1,0 +1,378 @@
+@font-face {
+    font-family:hallie;
+    src: url(Hallies.ttf);
+}
+
+@font-face {
+    font-family: king;
+    src: url(NixieOne.ttf);
+}
+
+#logo {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+}
+
+#lupa{
+    width: 20px;
+}
+
+.páginas a{
+    color:black;
+    font-weight: bold;
+    padding: 30px;   
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.páginas {
+    text-align: center;
+    font-family: king;
+}
+
+.barra-colorida{
+    text-align: center;
+}
+
+
+.comércio {
+    font-family: hallie;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #2E8B57;    
+}
+
+.restaurantes {
+    background-color:#2BA673;
+    height: 270px;
+    width: 270px;
+    border-radius: 10000px;
+    align-items: justify;
+    margin-right: 10px;
+}
+
+#restaurantes{
+    color: white;
+    text-decoration: none;
+    font-family: king;
+    font-weight: bold;
+    font-size: 30px;
+   position: absolute;
+   display: flex;
+   margin-left: 28px;}
+
+   .calcro {
+    background-color:#2BA673;
+    height: 270px;
+    width: 270px;
+    border-radius: 10000px;
+    align-items: justify;
+    margin-right: 10px;
+}
+
+#calcro {
+    color: white;
+    text-decoration: none;
+    font-family: king;
+    font-weight: bold;
+    font-size: 30px;
+   position: absolute;
+   display: flex;
+   margin-top: 2px;
+   margin-left: 55px;
+}
+
+.pado{
+    background-color:#2BA673;
+    height: 270px;
+    width: 270px;
+    border-radius: 10000px;
+    align-items: justify;
+    margin-right: 10px;
+}
+
+#pado {
+    color: white;
+    text-decoration: none;
+    font-family: king;
+    font-weight: bold;
+    font-size: 30px;
+   position: absolute;
+   display: flex;
+   margin-top: 2px;
+   margin-left: 55px;
+}
+
+.ties{
+    background-color:#2BA673;
+    height: 270px;
+    width: 270px;
+    border-radius: 10000px;
+    align-items: justify;
+    margin-right: 10px;
+}
+
+#ties {
+    color: white;
+    text-decoration: none;
+    font-family: king;
+    font-weight: bold;
+    font-size: 30px;
+   position: absolute;
+   display: flex;
+   margin-top: 0px;
+   margin-left: 10px;
+}
+
+.ouse{
+    background-color:#2BA673;
+    height: 270px;
+    width: 270px;
+    border-radius: 10000px;
+    align-items: justify;
+    margin-right: 10px;
+   
+}
+
+#ouse {
+    color: white;
+    text-decoration: none;
+    font-family: king;
+    font-weight: bold;
+    font-size: 30px;
+   position: absolute;
+   display: flex;
+   margin-top: 20px;
+   margin-left: 15px;
+}
+
+.pai0 {
+    display: flex;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: king;
+    color:white;
+    font-size: 28px;
+}
+
+#local1 {
+    font-family: hallie;
+    font-size: 40px;
+    color: black;
+}
+
+.input {
+    width: 60px;
+    height: 15px;
+}
+
+#restauranteimg{
+    width: 90px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+#calcroimg {
+    width: 90px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+#padoimg {
+    width: 90px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+#tiesimg {
+    width: 110px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+#ouseimg {
+    width: 80px;
+    margin-left: 85px;
+    margin-top: 32px;
+}
+
+.feira{
+    display: inline-block;
+}
+
+#video{
+width: 300px;
+height: 300px;
+}
+
+.rodapé{
+    background-color: #00686bf3;
+    height: 620px;
+    width: 1345px;
+    margin-left: -18px;
+    margin-top: 10px;
+}
+
+#titulorodapé {
+    font-family: hallie;
+    font-size: 50px;
+    margin-left: 35px;
+    color: white;
+}
+
+#textorodapé {
+    font-family: king;
+    font-size: 15px;
+    margin-left: 45px;
+    color: white;
+}
+
+a ol li{
+    margin-left: 45px;
+    color: white;
+    
+}
+
+#titulocontato {
+    font-family: hallie;
+    font-size: 50px;
+    margin-left: 580px;
+    color: white;
+}
+
+#textocontato {
+    margin-left: 600px;
+}
+
+#linksrodapé{
+    color:white;
+}
+
+#voltar {
+    color: white;
+    font-size: 50px;
+    font-weight: light;
+    text-decoration: overline rgba(0, 0, 0, 0.623);
+    font-family: hallie;
+    margin-top:-80px;
+}
+.feira{
+background-color:#2e8b564f;
+border-radius: 20px;
+border: dotted black;
+}
+
+a{
+color: black
+}
+
+#waze{
+    text-decoration: underline black;
+    color: white;
+}
+
+.amo{
+    background-color: #2BA673;
+    border-radius: 19px;
+    margin-top: 30px;
+    height: 950px;
+    border: ridge 20px;
+}
+
+#textoamo{
+    font-family: king;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 260px;
+    color:white
+}
+
+#tituloamo{
+    font-family: hallie;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+#item
+{  padding: 10px;
+    width: 1250px;
+}
+
+#item1
+{  padding: 10px;
+    width: 1250px;
+}
+
+#logoinsta {
+    width: 30px;
+}
+#criadora {
+    margin-left: 150px;
+ font-weight: bold;
+ color: white;
+ font-family: king;
+
+ }
+li{
+    color: white;
+    font-family: king;
+}
+
+#logopicpay{
+    width: 120px;
+    margin-top: -80px;
+}
+
+#logogerminare{
+    width: 120px;
+    margin-top: -80px;
+}
+#pqsdinsta{
+    font-family: king;
+    font-weight: bold;
+    color: white;
+}
+
+.descriçãocontamos{
+    margin-left: 30px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+ video {
+    float:left;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    margin-left: 12px;
+    
+ }
+
+ #textofeira{
+    font-family: king;
+    color: black;
+    font-weight: bolder;
+ }
+
+#linkparques, #linkformulários {
+    color: #0c3a25;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+#torresmo{
+    width: 250px;
+    border-radius: 10px;
+    border: dotted;
+    margin-left: 200px;
+}
+
+#entradagratuita {
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 100px;
+    border: dotted;
+}
+/*cores: 2BA673 00686B 2E8B57 2f792f*/

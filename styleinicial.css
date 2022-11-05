@@ -1,0 +1,324 @@
+
+@font-face {
+    font-family:hallie;
+    src: url(Hallies.ttf);
+}
+
+@font-face {
+    font-family: king;
+    src: url(NixieOne.ttf);
+}
+
+#lupa{
+    width: 20px;
+}
+
+.páginas a{
+    color:black;
+    font-weight: bold;
+    padding: 30px;   
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.páginas {
+    text-align: center;
+    font-family: king;
+}
+
+.barra-colorida{
+    text-align: center;
+}
+
+#bemvindo {
+    font-family: hallie;
+    font-size: 55px;
+    color: black;
+}
+
+#slogan {
+    font-family: king;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #2ba673be;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.slogan {
+    text-align: center;
+}
+
+#título {
+    font-family: hallie;
+    font-size: 75px;
+    color: #2f792f;
+}
+
+.boasvindasdiv {
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+
+.imagens {
+   background-color: #00686bc2;
+   border-radius: 20px;
+   margin: 0px auto;
+    padding: 5px;
+}
+
+#sidenav a {
+    position: relative;
+    display: block;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    left: -110px;
+    transition: 0.3s;
+  }
+  
+  #sidenav a:hover{
+    left: -20px;
+  }
+  
+  
+  #comércio{
+    background-color: #00686bf3;
+  }
+  
+  #placa {
+    background-color: #2BA673;
+  }
+  
+  #contato{
+    background-color: #348b34;
+  }
+
+
+#parque {
+    margin-left: 17px;
+    width: 510px;
+    height: 440px;
+}
+
+#família {
+    width: 300px;
+    height: 440px;
+}
+
+#toronto {
+    width: 480px;
+    height: 440px;
+}
+
+
+.inf {
+    background-color:#2ba673cb;
+    border-radius: 30px;
+}
+
+#inf {
+    padding: 20px;
+    font-family: hallie;    
+    font-size: 50px;
+    text-align: justify;
+    justify-content: space-around;
+    
+    font-weight:lighter;
+}
+
+#lista {
+    margin-left: 20px;
+    font-family: king;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#ml {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#local {
+    font-family: hallie;
+    font-size: 50px;
+    text-align: justify;
+    margin-left: 20px;
+    color: white;
+}
+
+.mãe {
+    padding: 10px; 
+} 
+
+.local{
+    margin-bottom: 15px;
+    margin-top: 17px;
+}
+#mapa{
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 700px;
+    margin-right: 0px;
+   background: linear-gradient(to bottom, #2BA673, #00686B, #348b34);
+   
+  
+}
+
+#mapa2{
+    border-radius: 10px;
+    margin-left: 0px;
+    width: 560px;
+    height: 449px;
+    margin-right: 0px;
+   background: linear-gradient(80deg, #2BA673, #00686B, #348b34);
+}
+
+#local1{
+    font-family: hallie;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+
+#clique {
+    font-family: king;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    
+    margin-top: -9000px;
+}
+
+.rodapé{
+    background-color: #00686bf3;
+    height: 620px;
+    width: 1345px;
+    margin-left: -18px;
+    margin-top: 10px;
+}
+
+#titulorodapé {
+    font-family: hallie;
+    font-size: 50px;
+    margin-left: 35px;
+    color: white;
+}
+
+#textorodapé {
+    font-family: king;
+    font-size: 15px;
+    margin-left: 45px;
+    color: white;
+}
+
+a ol li{
+    margin-left: 45px;
+    color: white;
+    
+}
+
+#titulocontato {
+    font-family: hallie;
+    font-size: 50px;
+    margin-left: 580px;
+    color: white;
+}
+
+#textocontato {
+    margin-left: 600px;
+}
+
+#linksrodapé{
+    color:white;
+}
+
+#voltar {
+    color: white;
+    font-size: 50px;
+    font-weight: light;
+    text-decoration: overline rgba(0, 0, 0, 0.623);
+    font-family: hallie;
+    margin-top:-80px;
+}
+
+a{
+color: black
+}
+
+#waze{
+    text-decoration: underline black;
+    color: white;
+}
+
+.amo{
+    background-color: #2BA673;
+    border-radius: 19px;
+    margin-top: 30px;
+    height: 950px;
+    border: ridge 20px;
+}
+
+#textoamo{
+    font-family: king;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 260px;
+    color:white
+}
+
+#tituloamo{
+    font-family: hallie;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+#item
+{  padding: 10px;
+    width: 1250px;
+}
+
+#item1
+{  padding: 10px;
+    width: 1250px;
+}
+
+#logoinsta {
+    width: 30px;
+}
+#criadora {
+    margin-left: 150px;
+ font-weight: bold;
+ color: white;
+ font-family: king;
+
+ }
+li{
+    color: white;
+    font-family: king;
+}
+
+#logopicpay{
+    width: 120px;
+    margin-top: -80px;
+}
+
+#logogerminare{
+    width: 120px;
+    margin-top: -80px;
+}
+#pqsdinsta{
+    font-family: king;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+/*cores: 2BA673 00686B 2E8B57 2f792f*/

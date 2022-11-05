@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários - Parque São Domingos</title>
+    <link rel="icon" href="imagens/entrada.jpg">
+    <link rel="stylesheet" href="styleformulários.css">
+</head>
+<body>
+      <header>
+
+        <div class="páginas">
+          <a href="páginainicial.html">Página Inicial</a>
+          <a href="história.html">História</a>
+          <a href="comércio.html">Comércio & Educação</a>
+          <a href="parques.html">Parques</a>
+          <a href="formulários.html">Formulários</a>
+          <img id="lupa" src="imagens/lupa.png" alt="Lupa" title="Lupa"/>
+          </div>
+        </div>
+        </header>
+      
+       <div class="barra-colorida">
+        <img src="imagens/barra_colorida.png" alt="barra colorida">
+        <img src="imagens/logo_pqsd.png" alt="Logo" title="Logo" id="logo">
+       </div>
+
+    <div class="forms">
+
+      <spam id="tituloforms">Dúvidas, elogios, reclamações, sugestões:</spam> 
+      <spam id="tituloforms2">Para a sua empresa participar da feira do torresmo:</spam> 
+    </div>
+    <div id="area">
+      <form id="formulario" autocomplete="off">
+        <fieldset>
+          <label>Nome: </label><input  type="text"><br>
+          <label> E-mail:  </label><input  type="email" placeholder="Ex: mariazinha@gmail.com"><br>
+          Idade: <input type="number" name="quantidade" min="5" max="100"> 
+          <p>Selecione seu gênero:</p>
+    <input type="radio">Feminino
+    <input type="radio">Masculino
+    <input type="radio">Outro<br> <br>
+    Defina seu nível de satisfação:<br>
+    pouco satisfeito
+    <input type="range" step="2.5" name="satisfacao" min="0" max="10" required>
+    muito satisfeito
+          <label id="mensagem">Mensagem:</label><br><br><textarea placeholder="Sem limite de caracteres"class="msg" cols="35" rows="8"></textarea><br>
+          <br>
+          <input  class="input"type="checkbox">Eu já visitei o bairro<br>
+    <input class="input" type="checkbox">Eu nunca visitei o bairro<br>
+    <input class="input" type="checkbox">Eu tenho interesse no bairro <br>
+    <input  class="input" type="checkbox">Eu moro no bairro<br>
+    <input class="input" type="checkbox" >Desejo receber uma resposta <br>
+<br>
+
+  <input type="checkbox" required/>
+<lab>Concordo que minhas informações sejam usadas para melhorias no bairro</lab>
+<br>
+    Selecione sua cor preferida: <input type="color" name="corfav" value="#2f792f">
+<br>
+          <input class="btn_submit" type="submit" action= "index.html" value="Enviar">
+        </fieldset>
+      </form>
+    </div>
+
+
+    <div id="area2">
+      <form id="formulario2" autocomplete="off">
+        <fieldset>
+          <label>Nome da empresa: </label><input  type="text" required><br>
+          <label> CNPJ:  </label><input placeholder="15 números (com traço)" max="15" min="15" type="password" required><br>
+          <label> E-mail:  </label><input placeholder="Ex:docinhos@gmail.com" type="password"><br><br>
+
+          <label required>Por que quer participar do evento?:</label><br><br>
+          
+          <textarea placeholder="Sem limite de caracteres" cols="35" rows="8"></textarea><br>
+
+          <br>
+          <input  class="input2"type="radio" required>Minha empresa já participou do evento<br>
+    <input class="input2" type="radio" required>Minha empresa nunca participou do evento<br> <br>
+    Quantidade de funcionários (entre 1 e 30): <input type="number" name="quantidade" min="1" max="30">   
+<br> <br>
+Selecione uma semana: <input type="week" name="semana" required><br><br>
+Horário que sua empresa iniciará as atividades na feira: <input type="time" name="usr_horario" required><br>
+Horário que sua empresa terminará as atividades na feira: <input type="time" name="usr_horario" required><br><br>
+Selecione sua área de comércio:
+<select required>
+  
+  <option selected>Salgados</option>
+  <option>Doces</option>
+  <option>Roupas</option>
+   <option>Calçados</option>
+   <option>Joias</option>
+   <option>Outro</option>
+ </select>
+ <br>
+ <br>
+          <input class="btn_submit" type="submit" action= "index.html"  value="Enviar">
+        </fieldset>
+      </form>
+    </div>
+
+
+
+    <br>
+    
+<footer class="rodapé">
+  <spam id="titulorodapé">Referências:</spam><spam id="titulocontato">Contato</spam>
+  
+  <p id="textorodapé"><spam id="textocontato">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤDiariamente das 7h às 18hㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ㅤ
+    Telefone: (11) 3831-7083</spam> 
+
+    <ol>
+   <li> <a id="linksrodapé" href="//www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/parques/programacao/index.php?p=5770#:~:text=O%20Parque%20S%C3%A3o%20Domingos%20tem,Castro%2C%20a%20marquesa%20de%20Santos.">Parques - Informações</a></li>
+   
+<br>
+<li> <a  id="linksrodapé" href="https://imoveis.estadao.com.br/guia-de-bairros/parque-sao-domingos-regiao-se-transformou-em-bairro-nobre/">Bairro Parque São Domingos - Informações história</a></li> 
+ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ<img id="logoinsta" src="imagens/logoinsta.webp"> <spam id="pqsdinsta">@parquesãodomingos</spam>
+    <br>
+    <li> <a  id="linksrodapé" href="https://www.spbairros.com.br/parque-sao-domingos/
+      https://www.areasverdesdascidades.com.br/2012/05/parque-cidade-de-toronto.html"> Parque Toronto - Informações</a></li>
+      <br>
+      <li> <a id="linksrodapé" href=" https://www.spbairros.com.br/parque-sao-domingos/">Parque São Domingos - Informações</a> </li>
+<br>
+<li> <a id="linksrodapé" href="
+  https://pt.wikipedia.org/wiki/S%C3%A3o_Domingos_(distrito_de_S%C3%A3o_Paulo)">Parque São Domingos - Informações 2</a> </li>
+ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ<a id="voltar" href="#lupa">Voltar ao início</a>
+<br>
+
+<li> <a id="linksrodapé" href=" https://queremospassear.com.br/">Queremos passear</a> </li>   
+   
+    <br>
+    <li> <a id="linksrodapé" href=" https://figma.com.br">Design</a> </li>    
+      
+    <br>
+    <li> <a id="linksrodapé" href=" https://www.homehost.com.br/blog/tutoriais/formulario-html/">Tutorial Formulário 1</a> </li>  
+    
+    <br>
+
+    <li> <a id="linksrodapé" href="https://www.devmedia.com.br/customizando-formularios-com-css/37212">Tutorial Formulário 2</a> </li> 
+    ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+    
+    <img id="logopicpay" src="imagens/logopicpay.png">
+    <img id="logogerminare" src="imagens/logogerminare.png">
+    
+    <br>
+    <li> <a id="linksrodapé" href="https://acervolima.com/formularios-html/#:~:text=Para%20criar%20uma%20caixa%20de%20sele%C3%A7%C3%A3o%20em%20um,isso.%20Ele%20costumava%20escolher%20mais%20op%C3%A7%C3%B5es%20por%20vez.">Tutorial Formulário 3</a> </li> 
+  </ol>
+   <p id="criadora"> Criadora: Laura Beatriz Hyde Nogueira 9ºE N14
+   Agradecimentos: Academia PicPay
+Professores: Marcelo Modolo, Carlos Giroto, Daniel de Freitas.</p>
+  </spam>
+
+
+</footer>
+</div>
+
+
+</body>
+</html>
